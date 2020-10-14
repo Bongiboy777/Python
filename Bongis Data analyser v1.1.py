@@ -1,3 +1,9 @@
+'''
+Bongis Data analyser script v1.1
+Author: Bongani Luwemba
+Version 1.1
+Date: 11/10/20
+'''
 import os;
 import tkinter as tk;
 import urllib.request;
