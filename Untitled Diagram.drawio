@@ -1,13 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T10:53:34.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 OPR/76.0.4017.123" etag="WT0PP6LbuBqG0QRSRO_e" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T11:02:42.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 OPR/76.0.4017.123" etag="II0tXUn5O6ZvZD2sSclr" version="14.6.13" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1566" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="508" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="x0ro4y0xWhh0hTtDura5-3" value="Fast foreward button click" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0ro4y0xWhh0hTtDura5-1" target="x0ro4y0xWhh0hTtDura5-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x0ro4y0xWhh0hTtDura5-1" value="State:Playing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x0ro4y0xWhh0hTtDura5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0ro4y0xWhh0hTtDura5-1" target="x0ro4y0xWhh0hTtDura5-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="440" />
+              <mxPoint x="195" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x0ro4y0xWhh0hTtDura5-22" value="Stop button click" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x0ro4y0xWhh0hTtDura5-21">
+          <mxGeometry x="-0.2767" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x0ro4y0xWhh0hTtDura5-1" value="State:Play mode" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="400" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="x0ro4y0xWhh0hTtDura5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0ro4y0xWhh0hTtDura5-2" target="x0ro4y0xWhh0hTtDura5-1">
@@ -19,13 +33,46 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="x0ro4y0xWhh0hTtDura5-7" value="Play button click" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x0ro4y0xWhh0hTtDura5-6">
+        <mxCell id="x0ro4y0xWhh0hTtDura5-7" value="Stop button click" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x0ro4y0xWhh0hTtDura5-6">
           <mxGeometry x="-0.0358" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x0ro4y0xWhh0hTtDura5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0ro4y0xWhh0hTtDura5-2" target="x0ro4y0xWhh0hTtDura5-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x0ro4y0xWhh0hTtDura5-14" value="Fast foreward button click&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x0ro4y0xWhh0hTtDura5-13">
+          <mxGeometry x="-0.1411" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="x0ro4y0xWhh0hTtDura5-2" value="State:Fast play" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ro4y0xWhh0hTtDura5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x0ro4y0xWhh0hTtDura5-12" target="x0ro4y0xWhh0hTtDura5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ro4y0xWhh0hTtDura5-16" value="Play button click" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x0ro4y0xWhh0hTtDura5-15">
+          <mxGeometry x="0.2614" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x0ro4y0xWhh0hTtDura5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0ro4y0xWhh0hTtDura5-12" target="x0ro4y0xWhh0hTtDura5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ro4y0xWhh0hTtDura5-12" value="State:Fast foreward" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ro4y0xWhh0hTtDura5-17" value="State:Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x0ro4y0xWhh0hTtDura5-19" value="Stop button click" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
